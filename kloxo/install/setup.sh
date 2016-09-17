@@ -40,7 +40,7 @@ if rpm -qa|grep 'mratwork-' >/dev/null 2>&1 ; then
 	yum update mratwork* -y
 else
 	cd /tmp
-	rpm -Uvh https://github.com/mustafaramadhan/kloxo/raw/rpms/release/neutral/noarch/mratwork-release-0.0.1-1.noarch.rpm
+	rpm -Uvh https://github.com/DVSB/kloxo/raw/rpms/release/neutral/noarch/mratwork-release-0.0.1-1.noarch.rpm
 	yum update mratwork-* -y
 	
 	'rm' -rf /etc/yum.repos.d/kloxo-mr.repo
