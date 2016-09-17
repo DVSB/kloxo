@@ -1,8 +1,8 @@
 #!/bin/sh
 
-#    Kloxo-MR - Hosting Control Panel
+#    Com-QuadTech - Hosting Control Panel
 #
-#    Copyright (C) 2013 - MRatWork
+#    Copyright (C) 2015 -2016  - Sbrzesny S.
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -18,12 +18,12 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 #
-# MRatWork - Kloxo-MR dev Installer
+# Com-QuadTech - CPKloxo dev Installer
 #
-# Version: 1.0 (2013-01-11 - by Mustafa Ramadhan <mustafa@bigraf.com>)
+# Version: 1.0 (2015-09-11 - by Sbrzesny S. )
 #
 
-kloxo_fork=mustafaramadhan
+kloxo_fork=DVDB
 kloxo_branch=dev
 kloxo_path=${kloxo_fork}/kloxo/zipball/${kloxo_branch}
 
