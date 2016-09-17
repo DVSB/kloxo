@@ -23,9 +23,9 @@ This fork named as Kloxo-MR (meaning 'Kloxo fork by Mustafa Ramadhan').
 
 1. More information about Kloxo (Official from LxCenter) - http://lxcenter.org/ and http://forum.lxcenter.org/
 
-2. More information about Kloxo-MR - http://mratwork.com/ and http://forum.mratwork.com/
+2. More information about Kloxo-MR - http://com-quadtech.net/ 
 
-### Kloxo-MR Features
+### Kloxo- Features to Com-QuadTech
 
 * OS: Redhat/CentOS 5 and 6 (32bit and 64bit) or their variants
 * Billing: AWBS, WHMCS, HostBill, TheHostingTool, AccountLab Plus, Blesta and BoxBilling (note: claim by billing's author)
