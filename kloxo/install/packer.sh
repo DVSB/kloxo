@@ -1,8 +1,8 @@
 #!/bin/sh
 
-#    Kloxo-MR - Hosting Control Panel
+#    Com-QuadTech - Hosting Control Panel
 #
-#    Copyright (C) 2013 - MRatWork
+#    Copyright (C) 2015 -2016  - Sbrzesny S.
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as
@@ -18,9 +18,9 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 #
-# MRatWork - Kloxo-MR dev Installer
+# Com-QuadTech - CPKloxo dev Installer
 #
-# Version: 1.0 (2013-01-11 - by Mustafa Ramadhan <mustafa@bigraf.com>)
+# Version: 1.0 (2015-09-11 - by Sbrzesny S. )
 #
 
 if [ "$1" == "--help" ] || [ "$1" == "-h" ] ; then
@@ -28,7 +28,7 @@ if [ "$1" == "--help" ] || [ "$1" == "-h" ] ; then
 	echo " ----------------------------------------------------------------------"
 	echo "  format: sh $0 --fork=<> --branch=<>"
 	echo " ----------------------------------------------------------------------"
-	echo "  --fork - example: lxcenter or mustafaramadhan (for certain developer)"
+	echo "  --fork - example: lxcenter or CPKloxo (for certain developer)"
 	echo "  --branch - example: master or dev"
 	echo
 	echo "  * Pack main kloxo package from git"
@@ -42,7 +42,7 @@ fi
 echo "Start pack..."
 
 if [ "$1" == "" ] ; then
-	kloxo_fork="mustafaramadhan"
+	kloxo_fork="DVSB"
 else
 	kloxo_fork=${1#--fork\=}
 fi
