@@ -1,6 +1,5 @@
-![Kloxo-logo]https://github.com/DVSB/kloxo/blob/rpms/logoKloxo.png
-
-### Kloxo fork by Mustafa Ramadhan
+!kloxo/logoKloxo.png
+### Kloxo fork by Com-QuadTech
 
 
 ===================
