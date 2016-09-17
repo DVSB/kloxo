@@ -1,4 +1,5 @@
-![Kloxo-MR logo](https://github.com/mustafaramadhan/kloxo/blob/dev/kloxo-mr_big.png)
+![Kloxo-MR logo](https://raw.githubusercontent.com/DVSB/kloxo/b856020b2667c089bdf71ae700d9a79f202a6a5b/logoKloxo.png)
+
 ### Kloxo fork by Com-QuadTech
 
 
