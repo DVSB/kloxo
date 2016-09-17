@@ -1,4 +1,4 @@
-![Kloxo-MR logo](https://github.com/mustafaramadhan/kloxo/blob/dev/kloxo-mr_big.png)
+![Kloxo-logo]https://github.com/DVSB/kloxo/blob/rpms/logoKloxo.png
 
 ### Kloxo fork by Mustafa Ramadhan
 
