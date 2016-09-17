@@ -1,26 +1,26 @@
 #!/bin/sh
 
-#	Kloxo-MR - Hosting Control Panel
+#    Com-QuadTech - Hosting Control Panel
 #
-#	Copyright (C) 2013 - MRatWork
+#    Copyright (C) 2015 -2016  - Sbrzesny S.
 #
-#	This program is free software: you can redistribute it and/or modify
-#	it under the terms of the GNU Affero General Public License as
-#	published by the Free Software Foundation, either version 3 of the
-#	License, or (at your option) any later version.
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU Affero General Public License as
+#    published by the Free Software Foundation, either version 3 of the
+#    License, or (at your option) any later version.
 #
-#	This program is distributed in the hope that it will be useful,
-#	but WITHOUT ANY WARRANTY; without even the implied warranty of
-#	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#	GNU Affero General Public License for more details.
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU Affero General Public License for more details.
 #
-#	You should have received a copy of the GNU Affero General Public License
-#	along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#    You should have received a copy of the GNU Affero General Public License
+#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 #
-# MRatWork - Kloxo-MR dev Installer
+# Com-QuadTech - CPKloxo dev Installer
 #
-# Version: 1.0 (2013-01-11 - by Mustafa Ramadhan <mustafa@bigraf.com>)
+# Version: 1.0 (2015-09-11 - by Sbrzesny S. )
 #
 
 ppath="/usr/local/lxlabs/kloxo"
@@ -40,7 +40,7 @@ if rpm -qa|grep 'mratwork-' >/dev/null 2>&1 ; then
 	yum update mratwork* -y
 else
 	cd /tmp
-	rpm -Uvh https://github.com/mustafaramadhan/kloxo/raw/rpms/release/neutral/noarch/mratwork-release-0.0.1-1.noarch.rpm
+	rpm -Uvh https://github.com/DVSB/kloxo/raw/rpms/release/neutral/noarch/mratwork-release-0.0.1-1.noarch.rpm
 	yum update mratwork-* -y
 	
 	'rm' -rf /etc/yum.repos.d/kloxo-mr.repo
